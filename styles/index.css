@@ -44,5 +44,8 @@ img{
 }
 #other-links{
     text-align: center;
+    display:block;
+    width: 100px;
+    height: 70px;
 }
  

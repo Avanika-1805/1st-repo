@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    width: 100%;
+    height: 960 px;
+}
+#one{
+    background-color: #CFF5E7;
+    height:240px;
+    box-sizing: border-box;
+    
+}
+#two{
+    background-color: #FBFACD;
+    height:36.6vh;
+}
+    
+
+
+#three{
+    background-color: #FFDDD2;
+    height:15rem;
+}
+#four{
+    background-color: #BCE29E;
+    height:15em;
+}
