@@ -4,36 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/cls.css">
+    <script src="https://kit.fontawesome.com/c16b054a08.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body style="background-color: red;">
-    <form action="/" method="post" enctype="text/plain">
+<body>
+    
+        <div id="login">
+            <h1>Login Form</h1>
+            <form action="/" method="post" enctype="text/plain">
        
-        <label for="email">email</label><br>
-        <input type="email"><br>
-        <label for="password">password</label><br>
-        <input type="password"><br>
-        <button>Login</button>
+           <label for="email">Email</label><br>
+                <input type="email"><br>
+                <label for="password">Password</label><br>
+                <div>
+                    <input type="password">
+                <i class="fa-solid fa-eye"></i>
 
-    </form>
-
-    <hr>
-    <form action="register">
-        <label for="name">Name</label><br>
-        <input type="text"><br>
-        <label for="email">email</label> <br> 
-         <input type="email"><br>
-        <label for="password">password</label><br>
-        <input type="password"><br>
+                </div>
+                
+                <br>
+                <button>Login</button>
         
-        <label for="Age">Age</label>
-        <input type="radio" name="Age"id="Age"value="above 18">Above 18
-        <input type="radio" name="age"id="age"value="below 18">Below 18 <br>
+
+       
+                
+            </form>
+
+        </div>
+        
+    <hr class="vertical">
+        
+        <div id="register">
+            <h1>Register Form</h1>
+            <form action="register">
+                <label for="name">Name</label><br>
+                <input type="text"><br>
+                <label for="email">Email</label> <br> 
+                 <input type="email"><br>
+                 <label for="password">Password</label><br>
+                
+                <div id="eye">
+                    
+                    <input type="password">
+                <i class="fa-solid fa-eye"></i>
+
+                </div>
+                
+                
+                 <label for="Age">Age</label>
+                <input type="radio" name="Age"id="Age"value="above 18">Above 18
+                <input type="radio" name="age"id="age"value="below 18">Below 18 <br>
+        
+            
+                <input type="checkbox"  name="checkbox" id="checkbox" value="I agree">I agree <a href="https://linkdata.com/terms-conditions/" target="_blank">Terms and conditions</a> <br> 
+                <button>Register</button> 
+            </form>
+
+        </div>
+        
 
     
-        <input type="checkbox"  name="checkbox" id="checkbox" value="I agree">I agree <a href="https://linkdata.com/terms-conditions/" target="_blank">Terms and conditions</a> <br>
-        <button>Register</button>
-    </form>
+    
     
 
 </body>
