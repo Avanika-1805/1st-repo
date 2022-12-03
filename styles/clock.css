@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: black;
+    
+}
+.container{
+    height: 70px;
+    width: 200px;
+    background:linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    margin-left: 43%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+#display{
+    position:absolute;
+    height: 57px;
+    width:180px ;
+    background:#1b1b1b;
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    
+
+}
+#time{
+    text-align: center;
+    margin-top: 18px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+
