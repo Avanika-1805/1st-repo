@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100%;
+    width: 100%;
+}
 
 nav{
     text-align: right;
@@ -22,9 +26,9 @@ section{
 
 input{
     width: 500px;
-    height: 40px;
+    height: 50px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 50px;
     border: solid 3px #f2f2f2;   
 }
 
@@ -42,19 +46,23 @@ img{
     width: 300px;
 }
 
-button:hover{
-    background-color: #f2f2f2;   
-}
+
 
 button{
     margin: 10px;
     padding: 5px;
+    border: none;
+}
+button:hover{
+    border: solid 2px;
+    background-color: #f2f2f2;   
 }
 
 .footer{
     background-color:#EAEAEA;
     margin-left: 5px;
-    padding:5px
+    padding:5px;
+    margin-top: -25px;
     
 }
 
