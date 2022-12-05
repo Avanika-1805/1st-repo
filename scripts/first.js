@@ -75,7 +75,7 @@ if(numbers % 2 == 0){
 }
 
 //switch
-let day=7;
+let day=5;
     switch (day) {
         case  day=0:
           console.log("monday");
@@ -92,10 +92,12 @@ let day=7;
             case day=4:
                 console.log("friday");
                 break;
-            case day=6:
+                
+
+            case day=5:
                 console.log("saturday");
             break;
-            case day=7:
+            case day=6:
                 console.log("sunday");       
           default:
                 console.log("unavailable");
