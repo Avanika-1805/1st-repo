@@ -1,7 +1,18 @@
-// function displayDate(){
-//     document.getElementById("showDate").innerHTML=Date();
-//     }
-//      console.log(displayDate());
+function displayDate(){
+    let today=new Date();
+    let hrs=today.getHours();
+    let mnts=today.getMinutes();
+    let sec=today.getSeconds();
+    let session = document.getElementById('session');
+    
+    
+    document.getElementById("hours").innerHTML= hrs;
+    document.getElementById("minutes").innerHTML= mnts;
+    document.getElementById("seconds").innerHTML= sec;
+    
 
-const display=document.getElementById("display");
-const time=document.getElementById("time");
+
+    }
+    setInterval(displayDate);
+     
+
