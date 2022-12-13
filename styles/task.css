@@ -11,71 +11,71 @@
     float: left;   
 }
 
-.box1{
+#box1{
     width: 300px;
     height: 300px;
-    background-color: blue;
+    /* background-color: blue; */
     float: left;
     margin-left: 10px;
     
 }
-.box2{
+#box2{
     width: 300px;
     height: 300px;
-    background-color: green;
+    /* background-color: green; */
     float: left; 
     margin-left: 10px;
 }
 
-.box3{
+#box3{
     width: 300px;
     height: 300px;
-    background-color: yellow;
+    /* background-color: yellow; */
      float: left; 
     margin-left: 10px;
 }
-.box4{
+#box4{
     width: 300px;
     height: 300px;
-    background-color: black;
+    /* background-color: black; */
      float: left; 
     margin-left: 10px;
     margin-top: 10px;
 
 }
-.box5{
+#box5{
     width: 300px;
     height: 300px;
-    background-color: red;
+    /* background-color: red; */
      float: left; 
     margin-left: 10px;
     margin-top: 10px;
 }
-.box6{
+#box6{
     width: 300px;
     height: 300px;
-    background-color:violet;
+    /* background-color:violet; */
     float: left; 
     margin-left: 10px;
     margin-top: 10px;
 }
  @media screen and (max-width:500px){
-    .box1{
+    #box1{
         float:none;
     }
-    .box2{
+    #box2{
         float:none;
     }
-    .box3{
+    #box3{
         float:none;
     }
-    .box4{
+    #box4{
         float:none;
     }
-    .box5{
+    #box5{
         float:none;
     }
-    .box6{
+    #box6{
         float:none;
     }
 
