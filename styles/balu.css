@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+        
+    
+}
+.container{
+    height: 50%;
+    width: 50%;
+    /* background-color: black; */
+    /* position: absolute; */
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#second{
+    margin-left: 100px;
+    margin-top: -70px;
+}

@@ -1,56 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.wraper{
-    margin-left: 38vw;   
-    margin-top: 28vh;
+body {
+    background: rgba(39, 34, 34, 0.986);
+  }
+  
+  h1{
+    color: cyan;
+    text-align: center;
+  }
+  h3{
+    margin-top: 300px;
+    text-align: center;
+    font-size: large;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap; 
+    padding-top: 150px;
+    padding-left: 150px;
     
-}
-
-.calculator{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(49, 48, 48);
-    width: 270px;
-    padding: 30px;
-    /* box-shadow: inset 5px 5px 12px #ffffff; */
-    /* box-shadow: inset 5px 5px 12px rgba(0, 0, 0, .16);  */
-    border: none;  
-    border-radius: 15px; 
-}
-
-input{
-    background-color: #ecf0f3 ;
-    width: 200px; 
-    height: 40px; 
-    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, .16); 
-    border: none;  
-    border-radius: 15px; 
-    color: rgb(70, 70, 70);
-    font-size: 30px;
-    text-align: right;
-    padding: 10px;
-    margin-bottom: 20px;
-
-}
-
-button{
-    width: 43px;
-    height: 38px;
-    margin: 2px;
-    background-color: #ecf0f3 ;
-    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, .16); 
-    border: none;  
-    border-radius: 50%;
-    font-size: 16px;
-}
-
-#equal{
-    width: 88px;
-}
-
-button:hover{
-    color: #22A39F;
-}
+  }
+  
+.white {
+    position: relative;
+    background: rgb(241, 240, 240);
+    width: 8%;
+    height: 400px;
+    margin: 0 2px;
+  }
+  
+  .white.black:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: rgb(17, 11, 11);
+    right: -25%;
+    width: 30%;
+    height: 50%;
+    z-index: 1;
+  }
