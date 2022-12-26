@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #EAFDFC;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 22px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+#homeBurger {
+    margin-top: 10px;
+    display: none;
+}
+
+.bio{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.self{
+    flex-basis: 60%;
+}
+
+/* .self span{
+    color: #ff004f;
+} */
+
+#image{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.pic{
+    flex-basis: 30%;
+}
+
+button{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color:#F24A72;
+    color: #fff;
+    border: none;
+}
+
+.container1{
+    padding: 10px 10% 30px;
+    margin-top: 5%;
+    background-color:#C0D8C0 ;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.post1{
+    flex-basis: 40%;
+    background-color: azure;
+    padding: 10px;
+    margin-left: -70px;
+}
+.post2{
+    flex-basis: 40%;
+    background-color: azure;
+    padding: 10px;
+}
+
+.container2{
+    padding: 10px 10%; 
+}
+
+ #Fw{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+#dashBoard{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.container2{
+    display: flex;
+}
+
+.DD{
+    margin-left: 20px;
+}
+
+.DD p{
+    margin-bottom: 10px;
+}
+
+#year{
+    background-color: #000000;
+    color: #C0D8C0;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 40px;
+}
+
+.HR{
+    padding: 10px 10%;  
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+footer img{
+    margin: 15px;
+}
+
+footer p{
+    margin-bottom: 15%;
+}   
+
+/* media quairies starts from here */
+
+@media screen and (max-width: 465px){
+   
+    .bio{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .self{
+        flex-basis: 30%;
+    }
+
+    .pic{
+        flex-basis: 20%;
+    }
+
+    button{
+        margin-left: 70px;
+    }
+
+    #rP{
+        margin-left: 90px;
+    }
+
+    .DD{
+        margin-left: 0px;
+    }
+
+    #Fw{
+        margin-left: 120px;
+    }
+
+    #dashBoard{
+        width: 260px;
+        height: 150px;
+        border-radius: 5px;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .posts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post1{
+        flex-basis: 20%;
+        padding: 5px;
+        margin-left: -0px;
+        margin-bottom: 5px;
+    }
+    .post2{
+        flex-basis: 20%;
+        padding: 5px;
+    }
+
+
+    .menu{
+        display: none;
+    
+    }
+
+    #homeBurger {
+        /* margin-bottom: 10px; */
+        display: block;
+        position: absolute;
+    }
+
+  .menu.active{
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width:320px){
+    button{
+        margin-left: 40px;
+    }
+
+    #rP{
+        margin-left: 50px;
+    }
+
+    .DD{
+        margin-left: 0px;
+    }
+
+    #Fw{
+        margin-left: 70px;
+    }
+
+    #dashBoard{
+        width: 200px;
+        height: 150px;
+        border-radius: 5px;
+    }
+ nav ul li a{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        margin-right: 0px;
+        padding-right: 0px;
+    } 
+
+}
+
+
+
+
