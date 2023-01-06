@@ -27,9 +27,9 @@
 // let three=3;
 // let seven=7;
 // console.log(!(three>seven && three<seven))
-// //Ternary
-// let result = (8<5) ?"True":"False";
-// console.log(result)
+ //Ternary
+ let result = (8<5) ?"True":"False";
+console.log(result)
 // // incriment and decriment
 // let N = 3;
 // console.log(N++)//3

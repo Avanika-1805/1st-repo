@@ -4,37 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanika-piano</title>
     <link rel="stylesheet" href="./styles/piano.css">
-    <title>Piano</title>
-    
 </head>
 <body>
-    <div class="container">
-       
-    <button id="C" onclick="playMusic1()">C</button>
-        <button class="Ab">Ab</button>
-        <button id="D" onclick="playD()">D</button>
-        <button class="Bb">Bb</button>
-        <button id="E" onclick="playE()">E</button>
-        <button class="C5">C5</button>
-        <button class="Cb">Cb</button>
-        <button id="F" onclick="playF()">F</button>
-        <button class="Db">Db</button>
-        <button id="G" onclick="playG()">G</buttn>
-        <button id="A" onclick="playA()">A</button>
-        <button id="B" onclick="playB()">B</button>
-      <button class="Gb">Gb</button>
-        </div>
-   <!-- <audio src="./images/C.mp3" controls>playc</audio>
-   <audio src="./images/D.mp3" controls>playd</audio>
-   <audio src="./images/E.mp3" controls>playe</audio>
-   <audio src="./images/F.mp3">playf</audio>
-   <audio src="./images/G.mp3">playg</audio>
-   <audio src="./images/A.mp3">playa</audio>
-   <audio src="./images/B.mp3">playb</audio> -->
-      
-    
-    
+    <div class="wrapper">
+     <div class="piano">
+        <div class="buttons">
+           <button class="white" id="button1" onclick="playTune1()">C</button>
+           <button class="black" id="button1B" onclick="playTune2()">C#</button>
+           <button class="white" id="button2" onclick="playTune3()">D </button>
+           <button class="black" id="button2B" onclick="playTune4()">D#</button>
+           <button class="white" id="button3" onclick="playTune5()">E</button>
+           <button class="black" id="button3B" onclick="playTune6()">F#</button>
+           <button class="white" id="button4" onclick="playTune7()">F</button>
+           <button class="black" id="button4B" onclick="playTune9()">G#</button>
+           <button class="white" id="button5" onclick="playTune8()">G</button>
+           <button class="black" id="button5B" onclick="playTune10()">A#</button>
+           <button class="white" id="button6" onclick="playTune11()">A</button>
+           <button class="white" id="button7" onclick="playTune12()">B</button>
+         </div>
+     </div>
+    </div>
 </body>
 <script src="./scripts/piano.js"></script>
 </html>

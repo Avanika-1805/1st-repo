@@ -1,29 +1,72 @@
-const whiteC= document.getElementById("C");
-const whiteD=document.getElementById("D");
-const whiteE=document.getElementById("E");
-const whiteF=document.getElementById("F");
-const whiteG=document.getElementById("G");
-const whiteA=document.getElementById("A");
-const whiteB= document.getElementById("B");
+// Tune 1
+let audioC = new Audio("./assets/A.mp3");
+const playTune1 = () =>{
+    audioC.play();
+};
 
-// const audioC= document.getElementById("playc");
-// const audioD=document.getElementById("playd");
-// const audioE=document.getElementById("playe");
-// const audioF=document.getElementById("playf");
-// const audioG=document.getElementById("playg");
-// const audioA=document.getElementById("playa");
-// const audioB= document.getElementById("playb");
+//Tune2
+let audioCash = new Audio("./assets/Ab.mp3");
+const playTune2= () =>{
+    audioCash.play();
+};
 
+//Tune3
+let audioD = new Audio("./assets/D.mp3");
 
-// document.getElementById(`C`).innerHTML=audioC;
+const playTune3 = () =>{
+    audioD.play();
+};
 
+//Tune4
+let audioDash = new Audio("./assets/Db.mp3");
+const playTune4 = () =>{
+    audioDash.play();
+};
 
-// function playC(){
-//        const audioC=document.getElementById(whiteC);
-//        audioA
-// }
-let audio =new Audio("./images/A.mp3");
+//Tune5 
+let audioE = new Audio("./assets/E.mp3");
+const playTune5=() =>{
+ audioE.play();
+};
 
-const playMusic1=() => {
-       audio.play();
+//Tune6
+let audioFash = new Audio("./assets/F.mp3");
+const playTune6=()=>{
+    audioFash.play();
+};
+
+//Tune7
+let audioF = new Audio("./assets/F.mp3");
+const playTune7=()=>{
+    audioFash.play();
+};
+
+//Tune8
+let audioG = new Audio("./assets/G.mp3");
+const playTune8=()=>{
+    audioG.play();
+};
+
+//Tune9
+let audioGash = new Audio("./assets/Gb.mp3");
+const playTune9=()=>{
+    audioGash.play();
+};
+
+//Tune10
+let audioA = new Audio("./assets/C.mp3");
+const playTune10=()=>{
+    audioA.play();
+};
+
+//Tune11
+let audioAAA = new Audio("./assets/A.mp3");
+const playTune11 = () =>{
+    audioC.play();
+};
+
+//Tune12
+let audioBB = new Audio("./assets/E.mp3");
+const playTune12=() =>{
+ audioE.play();
 }

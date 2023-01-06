@@ -1,95 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    margin: 0;
-    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: #FFC6D3; 
+}
+
+.wrapper{
     width: 100vw;
-    background-color: aquamarine;
-}
-.container{
-    height: 150px;
-    width: 250px;
-     display: flex;
-    /* position: relative;   */
-    /* background-color: black; */
-    
-    margin-left: 300px;
-    margin-top: 300px;
-   
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-#C{
-    height: 100px;
-    width: 30px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 3px solid ;
-    margin-top: -3px;
-    
+ .piyano{
+    height: 30vh;
+    width: 23.8vw;
+    background-color: #000;
+    padding-top: 10px;
 }
-.Ab{
-    height: 100px;
-    width: 30px;
+
+.white{
+    height: 28.3vh;
+    width: 3vw;
+    background-color:white;
+    border-radius: 0px 0px 5px 5px;
+    /* position: relative; */
+    padding-top: 100px;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: medium;
+    outline: none;
+}
+
+.black{
     position: absolute;
-    background-color: black;
-    border-style: outset;
-    border: 2px solid;
-    border-radius: 3px solid ;
-  
+    height: 20vh;
+    width: 2vw;
+    background-color:#000;
+    color: #FCFFE7;
+    font-weight: 200;
+    font-size: medium;
+    outline: none;
 }
-#D{
-    height: 100px;
-    width: 30px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 3px solid ;
-    
+
+#button1B{
+    /* position: absolute; */
+ margin-left: -21px;
+ border-radius: 0px 0px 5px 5px;
+} 
+
+#button2B{
+    margin-left: -18px;
+    border-radius: 0px 0px 5px 5px;
 }
-#E{
-    height: 100px;
-    width: 30px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 3px solid ;
-    
-}
-#F{
-    height: 100px;
-    width: 30px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 3px solid ;
-    
-}
-#G{
-    height: 100px;
-    width: 30px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 3px solid ;
-    
-}
-#A{
-    height: 100px;
-    width: 30px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 3px solid ;
-    
-}
-#B{
-    height: 100px;
-    width: 30px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 3px solid ;
-    
+
+#button3B{
+    margin-left: 26px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 
+#button4B{
+    margin-left: 26px;
+    border-radius: 0px 0px 5px 5px;
+}
 
+#button5B{
+    margin-left: 26px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+@media screen and (max-width:820px) {
+    .piyano{
+        width: 27vw;
+        height: 31vh;
+    }
+}
+
+@media screen and (max-width:912px) {
+    .piyano{
+        width: 27.5vw;
+        height: 30vh;
+    }
+}
+
+
+@media screen and (max-width:412px) {
+    .piyano{
+        width: 37vw;
+        height: 28vh;
+    }
+
+    .white{
+        height: 25vh;
+        width: 2vw;
+        font-weight: 100;
+    }
+
+    .black{
+        height: 10vh;
+        width: 1vw;
+    }
+}
