@@ -9,7 +9,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: #EAFDFC;
+    background-color: #E8F3D6;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -66,9 +66,9 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
-/* .self span{
+.self span{
     color: #ff004f;
-} */
+}
 
 #image{
     height: 150px;
@@ -279,13 +279,9 @@ footer p{
  nav ul li a{
         display: flex;
         flex-direction: column;
-        font-size: 10px;
+        font-size: 13px;
         margin-right: 0px;
         padding-right: 0px;
     } 
 
 }
-
-
-
-

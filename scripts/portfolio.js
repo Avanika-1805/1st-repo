@@ -1,6 +1,6 @@
-let home = document.querySelector("#homeBurger")
+let toggle = document.querySelector("#homeBurger")
 let menu = document.querySelector(".menu")
 
-home.onclick = function(){
-    menu.classList.home('active')
+toggle.onclick = function(){
+    menu.classList.toggle('active')
 }
