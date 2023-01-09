@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #E8F3D6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li{
+    display: inline-block;
+    
+}
+
+nav ul li a{
+    position: relative;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ff004f;
+}
+
+.blogAll{
+    margin-top: 8%;
+}
+
+h1{
+    margin-bottom: 3%;
+}
+
+hr{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+footer img{
+    margin: 15px;
+}
+
+footer p{
+    margin-bottom: 10%;
+}
+
+#homeBurger {
+    margin-top: 10px;
+    display: none;
+}
+
+@media screen and (max-width:350px){
+    .menu{
+        display: none;
+    
+    }
+
+    #homeBurger {
+        /* margin-bottom: 10px; */
+        display: block;
+        position: absolute;
+    }
+
+  .menu.active{
+    display: flex;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+}
