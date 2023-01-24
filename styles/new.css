@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  sans-serif;
+    background-image: url("./travel.jpg");
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px;
+    margin-bottom: 20%;
+}
+
+h1{
+   color: white;
+   font-size: 300%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white ;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+h2{
+    margin-bottom: 5vh;
+    color: white;
+}
+p{
+    float: left;
+    width: 30%;
+    color: #7B2869;
+}
+
+
+
+ 
+
